@@ -5,7 +5,7 @@
 
 # Maintainer: Your Name <youremail@domain.com>
 pkgname=dotnet-arch
-pkgver=3.1.301
+pkgver=3.1.403
 pkgrel=1
 arch=('x86_64')
 url=https://www.microsoft.com/net/core
@@ -16,8 +16,8 @@ makedepends=(
 )
 options=(staticlibs)
 _pkgdir="dotnet-sdk-${pkgver}-linux-x64"
-source=("https://download.visualstudio.microsoft.com/download/pr/8db2b522-7fa2-4903-97ec-d6d04d297a01/f467006b9098c2de256e40d2e2f36fea/${_pkgdir}.tar.gz")
-sha512sums=("dd39931df438b8c1561f9a3bdb50f72372e29e5706d3fb4c490692f04a3d55f5acc0b46b8049bc7ea34dedba63c71b4c64c57032740cbea81eef1dce41929b4e")
+source=("https://download.visualstudio.microsoft.com/download/pr/fdd9ecec-56b4-40f4-b762-d7efe24fc3cd/ffef51844c92afa6714528e10609a30f/${_pkgdir}.tar.gz")
+sha512sums=("0a0319ee8e9042bf04b6e83211c2d6e44e40e604bff0a133ba0d246d08bff76ebd88918ab5e10e6f7f0d2b504ddeb65c0108c6539bc4fbc4f09e4af3937e88ea")
 
 # prepare() {}
 # build() {}
